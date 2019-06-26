@@ -1,0 +1,853 @@
+[Root]
+Most Recent Package=標準安裝封裝 2
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=E:\Visual Basic\CdiuBeatUpEditor\setup
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+fmod.dll=
+
+[Package|Dep File 1|Missing Dependency Information]
+C:\WINDOWS\system32\dx8vb.dll=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\MSRDO20.DLL=
+
+[Package|Dep File 1|Files Added]
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+E:\Visual Basic\CdiuBeatUpEditor\CdiuBeatupEditor2.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\Vb6cht.dll=Yes
+C:\WINDOWS\system32\dx8vb.dll=Yes
+C:\WINDOWS\system32\MSRDC20.OCX=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\WINDOWS\system32\odbc32.dll=Yes
+C:\WINDOWS\system32\RDO20CHT.DLL=Yes
+C:\WINDOWS\system32\RDC20CHT.DLL=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\TABCTCHT.DLL=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\FLXGDCHT.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\CMDLGCHT.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCMCCHT.DLL=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSCC2CHT.DLL=Yes
+C:\WINDOWS\system32\MSINET.OCX=Yes
+C:\WINDOWS\system32\INETCHT.DLL=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\GAPI32.DLL=Yes
+C:\WINDOWS\system32\RCHTXCHT.DLL=Yes
+C:\WINDOWS\system32\MSCHRT20.OCX=Yes
+C:\WINDOWS\system32\MSCH2CHT.DLL=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\WINSKCHT.DLL=Yes
+C:\WINDOWS\system32\MSMAPI32.OCX=Yes
+C:\WINDOWS\system32\MSMPICHT.DLL=Yes
+C:\WINDOWS\system32\MCI32.OCX=Yes
+C:\WINDOWS\system32\MCICHT.DLL=Yes
+C:\WINDOWS\system32\PICCLP32.OCX=Yes
+C:\WINDOWS\system32\PCCLPCHT.DLL=Yes
+C:\WINDOWS\system32\SYSINFO.OCX=Yes
+C:\WINDOWS\system32\SYSINCHT.DLL=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\MSCOMCHT.DLL=Yes
+C:\WINDOWS\system32\MSMASK32.OCX=Yes
+C:\WINDOWS\system32\MSMSKCHT.DLL=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\STDFTCHT.DLL=Yes
+C:\WINDOWS\system32\DATGDCHT.DLL=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\DATLSCHT.DLL=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\CMCT3CHT.DLL=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\ADODCCHT.DLL=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+C:\WINDOWS\system32\MSHFGCHT.DLL=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=
+
+[Package|Dep File 1|Install Locations]
+E:\Visual Basic\CdiuBeatUpEditor\CdiuBeatupEditor2.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\Vb6cht.dll=$(WinSysPath)
+C:\WINDOWS\system32\dx8vb.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSRDC20.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\odbc32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\RDO20CHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDC20CHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\TABCTCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\FLXGDCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCMCCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCC2CHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\system32\INETCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\GAPI32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\RCHTXCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCHRT20.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCH2CHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\WINSKCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSMAPI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMPICHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MCI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MCICHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\PCCLPCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\system32\SYSINCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMSKCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\STDFTCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\DATGDCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DATLSCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMCT3CHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\ADODCCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSHFGCHT.DLL=$(WinSysPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=
+
+[Package|Dep File 1|DepFile]
+DepCabFile=CdiuBeatupEditor2.CAB
+DepCabRun=CdiuBeatupEditor2.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=E:\Visual Basic\CdiuBeatUpEditor\setup
+ProjectFolder=E:\Visual Basic\CdiuBeatUpEditor
+ServerSideCab=
+File1=E:\Visual Basic\CdiuBeatUpEditor\setup\CdiuBeatupEditor2.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|標準安裝封裝 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Visual Basic\CdiuBeatUpEditor25\setup
+
+[Package|標準安裝封裝 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|標準安裝封裝 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|標準安裝封裝 1|Files Found]
+
+[Package|標準安裝封裝 1|Files Released]
+fmod.dll=
+
+[Package|標準安裝封裝 1|Missing Dependency Information]
+C:\WINDOWS\system32\dx8vb.dll=
+E:\Visual Basic\CdiuBeatUpEditor\fmod.dll=
+E:\Visual Basic\CdiuBeatUpEditor25\zlib.dll=
+E:\Visual Basic\CdiuBeatUpEditor25\fmod.dll=
+
+[Package|標準安裝封裝 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\MSRDO20.DLL=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|標準安裝封裝 1|Files Added]
+
+[Package|標準安裝封裝 1|Files Removed]
+
+[Package|標準安裝封裝 1|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\Vb6cht.dll=Yes
+C:\WINDOWS\system32\dx8vb.dll=Yes
+C:\WINDOWS\system32\MSRDC20.OCX=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\WINDOWS\system32\RDO20CHT.DLL=Yes
+C:\WINDOWS\system32\RDC20CHT.DLL=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\TABCTCHT.DLL=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\FLXGDCHT.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\CMDLGCHT.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCMCCHT.DLL=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSCC2CHT.DLL=Yes
+C:\WINDOWS\system32\MSINET.OCX=Yes
+C:\WINDOWS\system32\INETCHT.DLL=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\GAPI32.DLL=Yes
+C:\WINDOWS\system32\RCHTXCHT.DLL=Yes
+C:\WINDOWS\system32\MSCHRT20.OCX=Yes
+C:\WINDOWS\system32\MSCH2CHT.DLL=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\WINSKCHT.DLL=Yes
+C:\WINDOWS\system32\MSMAPI32.OCX=Yes
+C:\WINDOWS\system32\MSMPICHT.DLL=Yes
+C:\WINDOWS\system32\MCI32.OCX=Yes
+C:\WINDOWS\system32\MCICHT.DLL=Yes
+C:\WINDOWS\system32\PICCLP32.OCX=Yes
+C:\WINDOWS\system32\PCCLPCHT.DLL=Yes
+C:\WINDOWS\system32\SYSINFO.OCX=Yes
+C:\WINDOWS\system32\SYSINCHT.DLL=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\MSCOMCHT.DLL=Yes
+C:\WINDOWS\system32\MSMASK32.OCX=Yes
+C:\WINDOWS\system32\MSMSKCHT.DLL=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\STDFTCHT.DLL=Yes
+C:\WINDOWS\system32\DATGDCHT.DLL=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\DATLSCHT.DLL=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\CMCT3CHT.DLL=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\ADODCCHT.DLL=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+C:\WINDOWS\system32\MSHFGCHT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\Visual Basic\CdiuBeatUpEditor25\CdiuBeatupEditor29.exe=Yes
+E:\Visual Basic\CdiuBeatUpEditor25\fmod.dll=Yes
+E:\Visual Basic\CdiuBeatUpEditor25\zlib.dll=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\scrrncht.dll=Yes
+
+[Package|標準安裝封裝 1|Configure Registry Files]
+Applicable=No
+
+[Package|標準安裝封裝 1|Configure Remote Servers]
+Applicable=No
+
+[Package|標準安裝封裝 1|Install Locations]
+E:\Visual Basic\CdiuBeatUpEditor\CdiuBeatupEditor2.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\Vb6cht.dll=$(WinSysPath)
+C:\WINDOWS\system32\dx8vb.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSRDC20.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\odbc32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\RDO20CHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDC20CHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\TABCTCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\FLXGDCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCMCCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCC2CHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\system32\INETCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\GAPI32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\RCHTXCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCHRT20.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCH2CHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\WINSKCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSMAPI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMPICHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MCI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MCICHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\PCCLPCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\system32\SYSINCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMSKCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\STDFTCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\DATGDCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DATLSCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMCT3CHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\ADODCCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSHFGCHT.DLL=$(WinSysPath)
+E:\Visual Basic\CdiuBeatUpEditor\fmod.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\Visual Basic\CdiuBeatUpEditor25\CdiuBeatupEditor29.exe=$(AppPath)
+E:\Visual Basic\CdiuBeatUpEditor25\fmod.dll=$(WinSysPath)
+E:\Visual Basic\CdiuBeatUpEditor25\zlib.dll=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\scrrncht.dll=$(WinSysPath)
+
+[Package|標準安裝封裝 1|Configure Shared Files]
+Applicable=Yes
+E:\Visual Basic\CdiuBeatUpEditor\CdiuBeatupEditor2.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+E:\Visual Basic\CdiuBeatUpEditor25\CdiuBeatupEditor29.exe=No
+
+[Package|標準安裝封裝 1|DepFile]
+DepCabFile=CdiuBeatupEditor2.CAB
+DepCabRun=CdiuBeatupEditor2.INF
+
+[Package|標準安裝封裝 1|Distribution]
+Type=single
+Size=
+Title=Project1
+
+[Package|標準安裝封裝 1|IconGroups]
+Group0=Project1
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|標準安裝封裝 1|Project1]
+Icon1=CdiuBeatupEditor2.exe
+Title1=Project1
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|標準安裝封裝 1|Package]
+PackageFolder=E:\Visual Basic\CdiuBeatUpEditor25\setup
+ProjectFolder=E:\Visual Basic\CdiuBeatUpEditor25
+ServerSideCab=
+File1=E:\Visual Basic\CdiuBeatUpEditor25\setup\setup.exe
+File2=E:\Visual Basic\CdiuBeatUpEditor25\setup\Setup.Lst
+File3=E:\Visual Basic\CdiuBeatUpEditor25\setup\CdiuBeatupEditor29.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 2|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=E:\Visual Basic\CdiuBeatUpEditor31\dll2
+
+[Package|Dep File 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 2|Files Found]
+
+[Package|Dep File 2|Files Released]
+fmod.dll=
+
+[Package|Dep File 2|Missing Dependency Information]
+C:\WINDOWS\system32\dx8vb.dll=
+E:\Visual Basic\CdiuBeatUpEditor\fmod.dll=
+E:\Visual Basic\CdiuBeatUpEditor25\zlib.dll=
+E:\Visual Basic\CdiuBeatUpEditor25\fmod.dll=
+E:\Visual Basic\CdiuBeatUpEditor31\BPM_Control.ocx=
+C:\WINDOWS\system32\mshtml.tlb=
+E:\Visual Basic\CdiuBeatUpEditor31\dll\zlib.dll=
+E:\Visual Basic\CdiuBeatUpEditor31\dll\fmod.dll=
+
+[Package|Dep File 2|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\MSRDO20.DLL=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|Dep File 2|Files Added]
+
+[Package|Dep File 2|Files Removed]
+
+[Package|Dep File 2|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\Vb6cht.dll=Yes
+C:\WINDOWS\system32\dx8vb.dll=Yes
+C:\WINDOWS\system32\MSRDC20.OCX=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\WINDOWS\system32\RDO20CHT.DLL=Yes
+C:\WINDOWS\system32\RDC20CHT.DLL=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\TABCTCHT.DLL=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\FLXGDCHT.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\CMDLGCHT.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCMCCHT.DLL=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSCC2CHT.DLL=Yes
+C:\WINDOWS\system32\MSINET.OCX=Yes
+C:\WINDOWS\system32\INETCHT.DLL=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\GAPI32.DLL=Yes
+C:\WINDOWS\system32\RCHTXCHT.DLL=Yes
+C:\WINDOWS\system32\MSCHRT20.OCX=Yes
+C:\WINDOWS\system32\MSCH2CHT.DLL=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\WINSKCHT.DLL=Yes
+C:\WINDOWS\system32\MSMAPI32.OCX=Yes
+C:\WINDOWS\system32\MSMPICHT.DLL=Yes
+C:\WINDOWS\system32\MCI32.OCX=Yes
+C:\WINDOWS\system32\MCICHT.DLL=Yes
+C:\WINDOWS\system32\PICCLP32.OCX=Yes
+C:\WINDOWS\system32\PCCLPCHT.DLL=Yes
+C:\WINDOWS\system32\SYSINFO.OCX=Yes
+C:\WINDOWS\system32\SYSINCHT.DLL=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\MSCOMCHT.DLL=Yes
+C:\WINDOWS\system32\MSMASK32.OCX=Yes
+C:\WINDOWS\system32\MSMSKCHT.DLL=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\STDFTCHT.DLL=Yes
+C:\WINDOWS\system32\DATGDCHT.DLL=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\DATLSCHT.DLL=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\CMCT3CHT.DLL=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\ADODCCHT.DLL=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+C:\WINDOWS\system32\MSHFGCHT.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\scrrncht.dll=Yes
+E:\Visual Basic\CdiuBeatUpEditor31\CdiuBeatupEditor31h.exe=Yes
+E:\Visual Basic\CdiuBeatUpEditor31\dll\fmod.dll=Yes
+E:\Visual Basic\CdiuBeatUpEditor31\dll\zlib.dll=Yes
+C:\WINDOWS\system32\mshtml.tlb=Yes
+C:\WINDOWS\system32\odbc32.dll=Yes
+E:\Visual Basic\CdiuBeatUpEditor31\BPM_Control.ocx=Yes
+
+[Package|Dep File 2|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 2|Install Locations]
+E:\Visual Basic\CdiuBeatUpEditor\CdiuBeatupEditor2.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\Vb6cht.dll=$(WinSysPath)
+C:\WINDOWS\system32\dx8vb.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSRDC20.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\odbc32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\RDO20CHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDC20CHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\TABCTCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\FLXGDCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCMCCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCC2CHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\system32\INETCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\GAPI32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\RCHTXCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCHRT20.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCH2CHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\WINSKCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSMAPI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMPICHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MCI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MCICHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\PCCLPCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\system32\SYSINCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMSKCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\STDFTCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\DATGDCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DATLSCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMCT3CHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\ADODCCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSHFGCHT.DLL=$(WinSysPath)
+E:\Visual Basic\CdiuBeatUpEditor\fmod.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\Visual Basic\CdiuBeatUpEditor25\CdiuBeatupEditor29.exe=$(AppPath)
+E:\Visual Basic\CdiuBeatUpEditor25\fmod.dll=$(WinSysPath)
+E:\Visual Basic\CdiuBeatUpEditor25\zlib.dll=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\scrrncht.dll=$(WinSysPath)
+E:\Visual Basic\CdiuBeatUpEditor31\CdiuBeatupEditor31h.exe=$(AppPath)
+E:\Visual Basic\CdiuBeatUpEditor31\dll\fmod.dll=$(WinSysPath)
+E:\Visual Basic\CdiuBeatUpEditor31\dll\zlib.dll=$(WinSysPath)
+C:\WINDOWS\system32\mshtml.tlb=$(WinSysPath)
+E:\Visual Basic\CdiuBeatUpEditor31\BPM_Control.ocx=$(WinSysPath)
+
+[Package|Dep File 2|Configure Shared Files]
+Applicable=Yes
+E:\Visual Basic\CdiuBeatUpEditor\CdiuBeatupEditor2.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+E:\Visual Basic\CdiuBeatUpEditor25\CdiuBeatupEditor29.exe=No
+
+[Package|Dep File 2|DepFile]
+DepCabFile=CdiuBeatupEditor2.CAB
+DepCabRun=CdiuBeatupEditor2.INF
+
+[Package|Dep File 2|Distribution]
+Type=single
+Size=
+Title=Project1
+
+[Package|Dep File 2|IconGroups]
+Group0=Project1
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Dep File 2|Project1]
+Icon1=CdiuBeatupEditor2.exe
+Title1=Project1
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 2|Package]
+PackageFolder=E:\Visual Basic\CdiuBeatUpEditor31\dll2
+ProjectFolder=E:\Visual Basic\CdiuBeatUpEditor31
+ServerSideCab=
+File1=E:\Visual Basic\CdiuBeatUpEditor31\dll2\CdiuBeatupEditor31h.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|標準安裝封裝 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Visual Basic\CdiuBeatUpEditor31\dll2
+
+[Package|標準安裝封裝 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|標準安裝封裝 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|標準安裝封裝 2|Files Found]
+
+[Package|標準安裝封裝 2|Files Released]
+fmod.dll=
+
+[Package|標準安裝封裝 2|Missing Dependency Information]
+C:\WINDOWS\system32\dx8vb.dll=
+E:\Visual Basic\CdiuBeatUpEditor\fmod.dll=
+E:\Visual Basic\CdiuBeatUpEditor25\zlib.dll=
+E:\Visual Basic\CdiuBeatUpEditor25\fmod.dll=
+E:\Visual Basic\CdiuBeatUpEditor31\BPM_Control.ocx=
+C:\WINDOWS\system32\mshtml.tlb=
+E:\Visual Basic\CdiuBeatUpEditor31\dll\zlib.dll=
+E:\Visual Basic\CdiuBeatUpEditor31\dll\fmod.dll=
+E:\Visual Basic\CdiuBeatUpEditor31\zlib.dll=
+E:\Visual Basic\CdiuBeatUpEditor31\fmod.dll=
+
+[Package|標準安裝封裝 2|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\MSRDO20.DLL=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|標準安裝封裝 2|Files Added]
+
+[Package|標準安裝封裝 2|Files Removed]
+
+[Package|標準安裝封裝 2|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\Vb6cht.dll=Yes
+C:\WINDOWS\system32\dx8vb.dll=Yes
+C:\WINDOWS\system32\MSRDC20.OCX=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\WINDOWS\system32\RDO20CHT.DLL=Yes
+C:\WINDOWS\system32\RDC20CHT.DLL=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\TABCTCHT.DLL=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\FLXGDCHT.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\CMDLGCHT.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCMCCHT.DLL=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSCC2CHT.DLL=Yes
+C:\WINDOWS\system32\MSINET.OCX=Yes
+C:\WINDOWS\system32\INETCHT.DLL=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\GAPI32.DLL=Yes
+C:\WINDOWS\system32\RCHTXCHT.DLL=Yes
+C:\WINDOWS\system32\MSCHRT20.OCX=Yes
+C:\WINDOWS\system32\MSCH2CHT.DLL=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\WINSKCHT.DLL=Yes
+C:\WINDOWS\system32\MSMAPI32.OCX=Yes
+C:\WINDOWS\system32\MSMPICHT.DLL=Yes
+C:\WINDOWS\system32\MCI32.OCX=Yes
+C:\WINDOWS\system32\MCICHT.DLL=Yes
+C:\WINDOWS\system32\PICCLP32.OCX=Yes
+C:\WINDOWS\system32\PCCLPCHT.DLL=Yes
+C:\WINDOWS\system32\SYSINFO.OCX=Yes
+C:\WINDOWS\system32\SYSINCHT.DLL=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\MSCOMCHT.DLL=Yes
+C:\WINDOWS\system32\MSMASK32.OCX=Yes
+C:\WINDOWS\system32\MSMSKCHT.DLL=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\STDFTCHT.DLL=Yes
+C:\WINDOWS\system32\DATGDCHT.DLL=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\DATLSCHT.DLL=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\CMCT3CHT.DLL=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\ADODCCHT.DLL=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+C:\WINDOWS\system32\MSHFGCHT.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\scrrncht.dll=Yes
+E:\Visual Basic\CdiuBeatUpEditor31\CdiuBeatupEditor31h.exe=Yes
+C:\WINDOWS\system32\mshtml.tlb=Yes
+E:\Visual Basic\CdiuBeatUpEditor31\BPM_Control.ocx=Yes
+E:\Visual Basic\CdiuBeatUpEditor31\fmod.dll=Yes
+E:\Visual Basic\CdiuBeatUpEditor31\zlib.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|標準安裝封裝 2|Configure Registry Files]
+Applicable=No
+
+[Package|標準安裝封裝 2|Configure Remote Servers]
+Applicable=No
+
+[Package|標準安裝封裝 2|Install Locations]
+E:\Visual Basic\CdiuBeatUpEditor\CdiuBeatupEditor2.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\Vb6cht.dll=$(WinSysPath)
+C:\WINDOWS\system32\dx8vb.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSRDC20.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\odbc32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\RDO20CHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDC20CHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\TABCTCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\FLXGDCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCMCCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCC2CHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\system32\INETCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\GAPI32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\RCHTXCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCHRT20.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCH2CHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\WINSKCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSMAPI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMPICHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MCI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MCICHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\PCCLPCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\system32\SYSINCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMSKCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\STDFTCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\DATGDCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DATLSCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMCT3CHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\ADODCCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSHFGCHT.DLL=$(WinSysPath)
+E:\Visual Basic\CdiuBeatUpEditor\fmod.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\Visual Basic\CdiuBeatUpEditor25\CdiuBeatupEditor29.exe=$(AppPath)
+E:\Visual Basic\CdiuBeatUpEditor25\fmod.dll=$(WinSysPath)
+E:\Visual Basic\CdiuBeatUpEditor25\zlib.dll=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\scrrncht.dll=$(WinSysPath)
+E:\Visual Basic\CdiuBeatUpEditor31\CdiuBeatupEditor31h.exe=$(AppPath)
+E:\Visual Basic\CdiuBeatUpEditor31\dll\fmod.dll=$(WinSysPath)
+E:\Visual Basic\CdiuBeatUpEditor31\dll\zlib.dll=$(WinSysPath)
+C:\WINDOWS\system32\mshtml.tlb=$(WinSysPath)
+E:\Visual Basic\CdiuBeatUpEditor31\BPM_Control.ocx=$(WinSysPath)
+E:\Visual Basic\CdiuBeatUpEditor31\fmod.dll=$(WinSysPath)
+E:\Visual Basic\CdiuBeatUpEditor31\zlib.dll=$(WinSysPath)
+
+[Package|標準安裝封裝 2|Configure Shared Files]
+Applicable=Yes
+E:\Visual Basic\CdiuBeatUpEditor\CdiuBeatupEditor2.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+E:\Visual Basic\CdiuBeatUpEditor25\CdiuBeatupEditor29.exe=No
+E:\Visual Basic\CdiuBeatUpEditor31\CdiuBeatupEditor31h.exe=No
+
+[Package|標準安裝封裝 2|DepFile]
+DepCabFile=CdiuBeatupEditor2.CAB
+DepCabRun=CdiuBeatupEditor2.INF
+
+[Package|標準安裝封裝 2|Distribution]
+Type=single
+Size=
+Title=Project1
+
+[Package|標準安裝封裝 2|IconGroups]
+Group0=Project1
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|標準安裝封裝 2|Project1]
+Icon1=CdiuBeatupEditor2.exe
+Title1=Project1
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|標準安裝封裝 2|Package]
+PackageFolder=E:\Visual Basic\CdiuBeatUpEditor31\dll2
+ProjectFolder=E:\Visual Basic\CdiuBeatUpEditor31
+ServerSideCab=
+File1=E:\Visual Basic\CdiuBeatUpEditor31\dll2\setup.exe
+File2=E:\Visual Basic\CdiuBeatUpEditor31\dll2\Setup.Lst
+File3=E:\Visual Basic\CdiuBeatUpEditor31\dll2\CdiuBeatupEditor31h.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
