@@ -76,7 +76,7 @@ Else
                 ToOffset = FormatNumber(ToNowBeat2 - ToNowBeat, 4)
                 If ToOffset = 0.5 Then ToOffset = -0.5: ToNowBeat = ToNowBeat + 1
         Else
-                ToNowBeat2 = CDbl(cmt.Times.value - OffSet) * CBT + CDbl(1)
+                ToNowBeat2 = CDbl(cmt.Times.value) * CBT + CDbl(1)
                 ToNowBeat = CLng(ToNowBeat2)
                 ToOffset = FormatNumber(ToNowBeat2 - ToNowBeat + 0.5, 4)
                 If ToOffset = 1 Then ToOffset = 0: ToNowBeat = ToNowBeat + 1

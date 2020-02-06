@@ -4,7 +4,7 @@ Option Explicit
 Dim Fso As New FileSystemObject
 
 Public Const VerionA = "3"
-Public Const VerionB = "5"
+Public Const VerionB = "6"
 
 Dim SoundH As Long
 Dim BeatSound(2 To 15) As Long, SpaceSound(2 To 15)  As Long
@@ -58,9 +58,9 @@ Public SaUnDo As Boolean
 
 Public Room As Boolean
 
-Public BpmSet(8) As Single
+Public BpmSet(8) As Double
 
-Public OffsetSet As Single
+Public OffsetSet As Double
 Public GameCheck() As Byte
 Public KeyPKey As Long
 

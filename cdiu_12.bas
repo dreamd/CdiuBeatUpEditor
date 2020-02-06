@@ -237,7 +237,14 @@ For i = 0 To HeaderA.NumberOfFile - 1
         Open SavePath + "\" + FileByteOfName(i) For Binary As #2
         Put #2, 1, RData
         Close #2
+        cma4.CheckFileIn FileByteOfName(i), RData
     Else
+        If Fso.FileExists(SavePath + "\" + FileByteOfName(i)) Then
+            Open SavePath + "\" + FileByteOfName(i) For Binary As #4
+            ReDim RData(FileLen(SavePath + "\" + FileByteOfName(i)) - 1)
+            Get #4, , RData
+            Close #4
+        End If
         cma4.CheckFileIn FileByteOfName(i), RData
     End If
 Next i

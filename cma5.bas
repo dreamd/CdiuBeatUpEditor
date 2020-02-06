@@ -1070,10 +1070,10 @@ If Admin = False Then On Error Resume Next
         If Fso.FileExists(App.Path + "\" + "BG3.cdiu") = False Then MsgBox IIf(Language = 0, "找不到檔案 BG2.cdiu", "File Not Found BG3.cdiu"), vbYes, IIf(Language = 0, "系統訊息", "System Info"): cma6.CloseAll
         If Fso.FileExists(App.Path + "\" + "Main.cdiu") = False Then MsgBox IIf(Language = 0, "找不到檔案 Main.cdiu", "File Not Found Main.cdiu"), vbYes, IIf(Language = 0, "系統訊息", "System Info"): cma6.CloseAll
         
-        Decrypt_12 App.Path + "\" + "BG1.cdiu", 0, App.Path + "\BG1\", True
-        Decrypt_12 App.Path + "\" + "BG2.cdiu", 0, App.Path + "\BG2\", True
-        Decrypt_12 App.Path + "\" + "BG3.cdiu", 0, App.Path + "\BG2\", True
-        Decrypt_12 App.Path + "\" + "Main.cdiu", 0, App.Path + "\Main\", True
+        Decrypt_12 App.Path + "\" + "BG1.cdiu", 0, App.Path + "\user\", True
+        Decrypt_12 App.Path + "\" + "BG2.cdiu", 0, App.Path + "\user\", True
+        Decrypt_12 App.Path + "\" + "BG3.cdiu", 0, App.Path + "\user\", True
+        Decrypt_12 App.Path + "\" + "Main.cdiu", 0, App.Path + "\user\", True
         
        CheckAcvFile
 End Sub

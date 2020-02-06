@@ -2,6 +2,6 @@
 
 
 
-upx -9 CdiuBeatupEditor34.exe
+upx -9 CdiuBeatupEditor36.exe
 
 pause
