@@ -197,7 +197,7 @@ If Admin = False Then On Error Resume Next
         
         For i = 3 To YNumber
                 
-                If KData(4, i) <> "" Then ReDim Preserve GData((CLng(KData(4, i))) * 8)
+                'If KData(4, i) <> "" Then ReDim Preserve GData(CLng(KData(4, i)) * 8)
                 
                 If InStr(KData(5, i), "n") > 0 Then
                     ReDim Preserve GData(CLng(KData(4, i)) * 8 + 5)

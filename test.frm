@@ -1,5 +1,5 @@
 VERSION 5.00
-Object = "{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0"; "MSCOMCTL.OCX"
+Object = "{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0"; "mscomctl.ocx"
 Begin VB.Form cmt 
    BackColor       =   &H00FFFFFF&
    BorderStyle     =   1  '單線固定
@@ -145,6 +145,12 @@ Begin VB.Form cmt
       TabIndex        =   1
       Top             =   0
       Width           =   6615
+      Begin VB.Timer Timer2 
+         Interval        =   1000
+         Left            =   5520
+         Tag             =   "此程式為免費版本，版權持有人為藍翎，嚴禁擅自販賣。發怖網址為 https://github.com/dreamd/CdiuBeatUpEditor/releases"
+         Top             =   4080
+      End
       Begin VB.TextBox OK_Bpm 
          Appearance      =   0  '平面
          BackColor       =   &H0080C0FF&
@@ -337,6 +343,7 @@ Begin VB.Form cmt
          Enabled         =   0   'False
          Interval        =   1
          Left            =   4680
+         Tag             =   $"test.frx":D4E2
          Top             =   1200
       End
       Begin VB.TextBox OK_Bpm 
@@ -759,9 +766,9 @@ Begin VB.Form cmt
          Width           =   6735
          Begin VB.ListBox Team_List 
             Height          =   3480
-            ItemData        =   "test.frx":D4E2
+            ItemData        =   "test.frx":D580
             Left            =   240
-            List            =   "test.frx":D4E4
+            List            =   "test.frx":D582
             TabIndex        =   33
             Top             =   480
             Width           =   6255
@@ -1319,7 +1326,7 @@ Begin VB.Form cmt
          ForeColor       =   &H80000008&
          Height          =   3840
          Left            =   0
-         Picture         =   "test.frx":D4E6
+         Picture         =   "test.frx":D584
          ScaleHeight     =   256
          ScaleMode       =   3  '像素
          ScaleWidth      =   256
@@ -1600,6 +1607,7 @@ Private Sub Form_Resize()
         Case 2  '?中最大化
             Me.WindowState = 0
     End Select
+    
 End Sub
 Sub ReSize(Width As Long, Height As Long)
     cmt.MainPicture.Width = cmt.MainPicture.Width * Width / cmt.MainPicture.ScaleWidth
@@ -2252,7 +2260,7 @@ End If
 
 cmt.Timer1.Enabled = True
 ReSize 1024, 768
-
+Timer2.Enabled = True
 End Sub
 
 
@@ -2804,6 +2812,11 @@ cmt.Timer1.Enabled = False
 cma4.Render
 cma4.LoopRender
 
+End Sub
+
+Private Sub Timer2_Timer()
+    Me.Timer2.Enabled = False
+    MsgBox IIf(Language = 0, Me.Timer2.Tag, Me.Timer1.Tag), 0, IIf(Language = 0, "系統訊息", "System Info")
 End Sub
 
 Private Sub UnDo_Click()
